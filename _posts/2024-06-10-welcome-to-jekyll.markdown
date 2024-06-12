@@ -29,6 +29,7 @@ Ficclat es más que un simple sitio web. Es una comunidad para todos aquellos qu
 
 Mantente al día con nuestras últimas publicaciones y noticias siguiéndonos en nuestras redes sociales:
 
+- **Facebook**: [FiccLat](https://web.facebook.com/groups/718730956035801)
 - **Twitter**: [@FiccLat](https://x.com/FiccLat)
 - **YouTube**: [Ficclat](https://www.youtube.com/@ficclat)
 - **Instagram**: [@ficclat_](https://www.instagram.com/ficclat_/)
