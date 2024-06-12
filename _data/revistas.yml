@@ -1,0 +1,17 @@
+- name: "Colectivo Delfos"
+  url: "https://colectivodelfos.com"
+  convocatorias_url: "https://colectivodelfos.com/convocatorias"
+  description: "Colectivo Delfos es una revista dedicada a la publicación de relatos de ciencia ficción, fantasía y terror, fomentando la creatividad y la difusión de nuevas voces literarias en el mundo hispanohablante."
+  contact_email: "contacto@colectivodelfos.com"
+
+- name: "Teoría Omicrón"
+  url: "https://teoriaomicron.com"
+  convocatorias_url: "https://teoriaomicron.com/convocatorias"
+  description: "Teoría Omicrón es una revista literaria enfocada en la ciencia ficción y el pensamiento especulativo. Publica relatos, ensayos y artículos que exploran los límites del conocimiento y la imaginación."
+  contact_email: "editor@teoriaomicron.com"
+
+- name: "Penumbria"
+  url: "https://penumbria.com"
+  convocatorias_url: "https://penumbria.com/convocatorias"
+  description: "Penumbria es una revista de terror y fantasía que ofrece una plataforma para escritores emergentes y establecidos. Publica cuentos, poesías y ensayos que exploran lo macabro y lo fantástico."
+  contact_email: "contacto@penumbria.com"
