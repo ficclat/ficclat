@@ -5,7 +5,7 @@ title: Ficclat - Ficción Latinoamericana
 email: ficcionlatinoamericana@gmail.com
 description: >
   Ficclat es un sitio web dedicado a la difusión de la ficción latinoamericana, especialmente en los géneros de terror, fantasía y ciencia ficción. Promovemos y damos a conocer las obras de autores latinoamericanos y brindamos un espacio para que los lectores puedan descubrir nuevas historias emocionantes y llenas de creatividad.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ficclat" # the subpath of your site, e.g. /blog
 url: "https://ficclat.github.io" # the base hostname & protocol for your site
 twitter_username: FiccLat
 github_username:  ficclat
