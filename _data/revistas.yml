@@ -47,8 +47,8 @@
   #contact_email: contacto@revistaiguales.com
 
 - name: Revista Axxon
-  url: https://revistaaxxon.com.ar
-  call_url: https://revistaaxxon.com.ar/convocatorias
+  url: https://axxon.com.ar/
+  call_url: https://axxon.com.ar/c-colaboraciones.htm
   description: Revista argentina de ciencia ficción y fantasía con una larga trayectoria en la difusión de autores hispanohablantes.
   contact_email: contacto@revistaaxxon.com
 
