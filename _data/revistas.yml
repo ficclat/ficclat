@@ -75,3 +75,10 @@
   convocatorias_url: https://elojodeuk.com/te-gustaria-colaborar/
   description: Revista que combina arte visual y literatura de ciencia ficción y fantasía, destacando la colaboración entre artistas y escritores.
   contact_email: elojodeuk@hotmail.com
+
+- name: Revista Mordedor
+  tipo: fanzine
+  url: https://revistamordedor.com/
+  convocatorias_url: https://revistamordedor.com/convocatoria/
+  description: En este fascinante y misterioso mundo exploramos los límites de la realidad y nos sumergimos en las profundidades de lo sobrenatural.
+  contact_email: redaccion@revistamordedor.com
