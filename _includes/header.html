@@ -8,7 +8,10 @@
         <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
          <div class="row">
           <div class="col-md-2">
-            <img src="{{site.baseurl}}/assets/img/logo1@2x.png" alt="" class="img-fluid">
+            <a class="page-link" href="{{ site.baseurl }}/">
+              <img src="{{site.baseurl}}/assets/img/logo1@2x.png" alt="" class="img-fluid">
+            </a>
+            
           </div>
           <div class="col-md-10">
             {%- if page_paths -%}
