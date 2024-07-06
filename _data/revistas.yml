@@ -1,10 +1,3 @@
-- name: Colectivo Delfos
-  tipo: fanzine
-  url: https://colectivodelfos.com
-  convocatorias_url: https://colectivodelfos.com/convocatoria
-  description: Colectivo Delfos es una revista dedicada a la publicación de relatos de ciencia ficción, fantasía y terror, fomentando la creatividad y la difusión de nuevas voces literarias en el mundo hispanohablante.
-  contact_email: contacto@colectivodelfos.com
-
 - name: Espejo Humeante
   tipo: fanzine
   url: https://espejohumeanterevista.wordpress.com/
@@ -89,3 +82,11 @@
   convocatorias_url: https://revistamordedor.com/convocatoria/
   description: Revista de género con un toque pulp.
   contact_email: revpulporama@gmail.com
+
+- name: Colectivo Delfos
+  tipo: fanzine
+  alerta: solo méxico
+  url: https://colectivodelfos.com
+  convocatorias_url: https://colectivodelfos.com/convocatoria
+  description: Colectivo Delfos es una revista dedicada a la publicación de relatos de ciencia ficción, fantasía y terror, fomentando la creatividad y la difusión de nuevas voces literarias en el mundo hispanohablante.
+  contact_email: contacto@colectivodelfos.com
