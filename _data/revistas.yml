@@ -82,3 +82,10 @@
   convocatorias_url: https://revistamordedor.com/convocatoria/
   description: En este fascinante y misterioso mundo exploramos los límites de la realidad y nos sumergimos en las profundidades de lo sobrenatural.
   contact_email: redaccion@revistamordedor.com
+
+- name: Revista Pulporama
+  tipo: fanzine
+  url: https://revistapulporama.wordpress.com/
+  convocatorias_url: https://revistamordedor.com/convocatoria/
+  description: Revista de género con un toque pulp.
+  contact_email: revpulporama@gmail.com
