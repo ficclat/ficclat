@@ -34,3 +34,15 @@ Para consultas, colaboraciones o cualquier otra información, no dudes en contac
 ---
 
 ¡Gracias por visitar Ficclat y ser parte de la comunidad de ficción latinoamericana!
+
+---
+
+# Uso
+
+## Jekyll
+
+``
+> bundle exec jekyll clean
+> bundle exec jekyll build
+> bundle exec jekyll serve --watch --incremental --port 4001
+``
