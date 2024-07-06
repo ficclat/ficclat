@@ -1,6 +1,7 @@
 <div class="row" data-masonry='{"percentPosition": true }'>
   {% for revista in site.data.revistas %}
   {%- if revista.tipo == "revista" -%}
+  
   <div class="col-sm-12 col-lg-6 col-xl-8  mb-3">
   {%- else -%}
   <div class="col-sm-6 col-lg-3 col-xl-4  mb-3">
@@ -8,7 +9,7 @@
     <div class="card mb-3 shadow">
       <div class="card-header">
         {%- if revista.tipo == "revista" -%}
-        <h6 class="small mb-0">revista</h6>
+        <h6 class="small mb-0"><strong>revista</strong></h6>
         {%- else -%}
         <h6 class="small mb-0">fanzine</h6>
         {%- endif -%}

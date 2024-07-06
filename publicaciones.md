@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Fanzines y Revistas Latinoamericanas"
-permalink: /fanzines/
+permalink: /publicaciones/
 ---
 
-{% include for_revistas.html %}
+{% include for_publicaciones.html %}
