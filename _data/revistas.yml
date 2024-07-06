@@ -1,66 +1,77 @@
-- name: "Colectivo Delfos"
-  url: "https://colectivodelfos.com"
-  convocatorias_url: "https://colectivodelfos.com/convocatoria"
-  description: "Colectivo Delfos es una revista dedicada a la publicación de relatos de ciencia ficción, fantasía y terror, fomentando la creatividad y la difusión de nuevas voces literarias en el mundo hispanohablante."
-  contact_email: "contacto@colectivodelfos.com"
+- name: Colectivo Delfos
+  tipo: fanzine
+  url: https://colectivodelfos.com
+  convocatorias_url: https://colectivodelfos.com/convocatoria
+  description: Colectivo Delfos es una revista dedicada a la publicación de relatos de ciencia ficción, fantasía y terror, fomentando la creatividad y la difusión de nuevas voces literarias en el mundo hispanohablante.
+  contact_email: contacto@colectivodelfos.com
 
 - name: Espejo Humeante
+  tipo: fanzine
   url: https://espejohumeanterevista.wordpress.com/
-  call_url: https://espejohumeanterevista.wordpress.com/convocatorias/
+  convocatorias_url: https://espejohumeanterevista.wordpress.com/convocatorias/
   description: Revista de fantasía, ciencia ficción y terror que busca difundir obras de autores de habla hispana.
   contact_email: espejohumeanterevista@gmail.com
 
 - name: Anapoyesis
+  tipo: fanzine
   url: https://anapoyesisrevista.wordpress.com/
-  call_url: https://anapoyesisrevista.wordpress.com/convocatorias/
+  convocatorias_url: https://anapoyesisrevista.wordpress.com/convocatorias/
   description: Publicación dedicada a la ciencia ficción y la literatura fantástica, con un enfoque en la innovación narrativa.
   contact_email: anapoyesisrev@gmail.com
 
 - name: Revista Axioma
+  tipo: fanzine
   url: https://elaxiomablog.wordpress.com/
-  #call_url: https://revistaaxioma.com/convocatorias
+  #convocatorias_url: https://revistaaxioma.com/convocatorias
   description: Revista que ofrece un espacio para la reflexión y el análisis de la literatura de ciencia ficción y fantasía.
   #contact_email: contacto@revistaaxioma.com
 
 - name: Teoría Omicrón
+  tipo: fanzine
   url: https://teoriaomicron.com
-  call_url: https://teoriaomicron.com/colaboraciones/
+  convocatorias_url: https://teoriaomicron.com/colaboraciones/
   description: Revista que explora las fronteras de la ciencia ficción y la teoría literaria, publicando ensayos, relatos y críticas.
   contact_email: contacto@teoriaomicron.com
 
 - name: Penumbria
+  tipo: fanzine
   url: https://www.penumbria.mx/
-  #call_url: https://penumbria.com/convocatorias
+  #convocatorias_url: https://penumbria.com/convocatorias
   description: Revista de literatura fantástica que se enfoca en cuentos de terror, ciencia ficción y fantasía.
   #contact_email: contacto@penumbria.com
 
 - name: El Axioma
+  tipo: fanzine
   url: https://elaxiomablog.wordpress.com/
-  #call_url: https://elaxioma.com/convocatorias
+  #convocatorias_url: https://elaxioma.com/convocatorias
   description: Publicación dedicada a la exploración de la ciencia ficción y la fantasía, promoviendo nuevas voces en estos géneros.
   contact_email: contacto@elaxioma.com
 
 - name: Revista Iguales
+  tipo: fanzine
   url: https://www.instagram.com/igualesrevista/
-  #call_url: https://revistaiguales.com/convocatorias
+  #convocatorias_url: https://revistaiguales.com/convocatorias
   description: Revista que busca la inclusión y la diversidad en la literatura de ciencia ficción y fantasía.
   contact_email: igualesrevista@gmail.com
 
 - name: Revista Axxon
+  tipo: fanzine
   url: https://axxon.com.ar/
-  call_url: https://axxon.com.ar/c-colaboraciones.htm
+  convocatorias_url: https://axxon.com.ar/c-colaboraciones.htm
   description: Revista argentina de ciencia ficción y fantasía con una larga trayectoria en la difusión de autores hispanohablantes.
   contact_email: contacto@revistaaxxon.com
 
-- name: El Ojo de Uk
-  url: https://elojodeuk.com/
-  call_url: https://elojodeuk.com/te-gustaria-colaborar/
-  description: Revista que combina arte visual y literatura de ciencia ficción y fantasía, destacando la colaboración entre artistas y escritores.
-  contact_email: elojodeuk@hotmail.com
 
 - name: PLANETA MISTERIO // COLECTIVERO
+  tipo: revista
   url: https://oscargonzalezcruz.com/
-  call_url: https://oscargonzalezcruz.com/convocatoria
+  convocatorias_url: https://oscargonzalezcruz.com/convocatoria
   #description: Revista que combina arte visual y literatura de ciencia ficción y fantasía, destacando la colaboración entre artistas y escritores.
   #contact_email: elojodeuk@hotmail.com
 
+- name: El Ojo de Uk
+  tipo: fanzine
+  url: https://elojodeuk.com/
+  convocatorias_url: https://elojodeuk.com/te-gustaria-colaborar/
+  description: Revista que combina arte visual y literatura de ciencia ficción y fantasía, destacando la colaboración entre artistas y escritores.
+  contact_email: elojodeuk@hotmail.com

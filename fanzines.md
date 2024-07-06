@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Fanzines"
+title: "Fanzines y Revistas Latinoamericanas"
 permalink: /fanzines/
 ---
 
