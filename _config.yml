@@ -7,8 +7,14 @@ description: >
   Ficclat es un sitio web dedicado a la difusión de la ficción latinoamericana, especialmente en los géneros de terror, fantasía y ciencia ficción. Promovemos y damos a conocer las obras de autores latinoamericanos y brindamos un espacio para que los lectores puedan descubrir nuevas historias emocionantes y llenas de creatividad.
 baseurl: "/ficclat" # the subpath of your site, e.g. /blog
 url: "https://ficclat.github.io" # the base hostname & protocol for your site
-twitter_username: FiccLat
+
+twitter_username: ficcLat
 github_username:  ficclat
+facebook_username: ficclat
+facebookgroup_username: ficclat
+facebookgroup_number: '718730956035801'
+instagram_username: ficclat_
+youtube_username: ficclat
 
 # Build settings
 theme: minima
