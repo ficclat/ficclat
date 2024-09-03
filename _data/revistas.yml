@@ -99,6 +99,14 @@
   description: Colectivo Delfos es una revista dedicada a la publicación de relatos de ciencia ficción, fantasía y terror, fomentando la creatividad y la difusión de nuevas voces literarias en el mundo hispanohablante.
   contact_email: contacto@colectivodelfos.com
 
+- name: Revista Weird Review
+  tipo: fanzine
+  alerta: 
+  url: https://www.revistaweirdreview.com/
+  convocatorias_url: https://www.revistaweirdreview.com/convocatorias-revista-weirdreview/
+  description: "WEIRD REVIEW es una revista de ficción que se especializa en los géneros de: ciencia ficción, fantasía, weird fiction, terror y cuento fantástico. Es creada en Panamá en el 2022 por Yoselin Goncalves y Leyles Rubio León con la finalidad de impulsar a los artistas que hacen su mayor esfuerzo por poner los géneros fantásticos en los espacios que se merecen."
+  contact_email: info@revistaweirdreview.com
+
 - name: Revista literaria Boca 'e Loba
   tipo: fanzine
   alerta: 
