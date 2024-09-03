@@ -1,37 +1,39 @@
 <div class="row" data-masonry='{"percentPosition": true }'>
-  {% for revista in site.data.revistas %}
-  {%- if revista.tipo == "revista" -%}
-  <div class="col-sm-12 col-lg-6 col-xl-8  mb-3">
-  {%- else -%}
-  <div class="col-sm-6 col-lg-3 col-xl-4  mb-3">
-  {%- endif -%}
-    <div class="card mb-3 shadow">
-      <div class="card-header shadow-sm">
-        {%- if revista.tipo == "revista" -%}
-        <h6 class="small mb-0"><strong>revista</strong></h6>
-        {%- else -%}
-        <h6 class="small mb-0">fanzine</h6>
-        {%- endif -%}
-        <a href="{{ revista.url }}" target="_blank">
-          <h3 class="card-title">{{ revista.name }}</h3>
-        </a>
-      </div>
-      {%- if revista.alerta -%}
-       <div class="card-header text-bg-warning fw-bold"> {{ revista.alerta }}</div>
-      {%- endif -%}
-      <div class="card-body">
-        <p>{{ revista.description }}</p>
-        {%- if revista.convocatorias_url -%}
-        <p><a href="{{ revista.convocatorias_url }}" target="_blank" class="btn btn-outline-danger">Convocatorias</a>
-        </p>
-        {%- endif -%}
-      </div>
-      {%- if revista.contact_email -%}
-      <div class="card-footer">
-        <p>Contacto: <a href="mailto:{{ revista.contact_email }}">{{ revista.contact_email }}</a></p>
-      </div>
-      {%- endif -%}
-    </div>
-  </div>
-  {% endfor %}
+	{% for revista in site.data.revistas %}
+		{%- if revista.name -%}
+			{%- if revista.tipo == "revista" -%}
+			<div class="col-sm-12 col-lg-6 col-xl-8  mb-3">
+			{%- else -%}
+			<div class="col-sm-6 col-lg-3 col-xl-4  mb-3">
+			{%- endif -%}
+				<div class="card mb-3 shadow">
+					<div class="card-header shadow-sm">
+						{%- if revista.tipo == "revista" -%}
+						<h6 class="small mb-0"><strong>revista</strong></h6>
+						{%- else -%}
+						<h6 class="small mb-0">fanzine</h6>
+						{%- endif -%}
+						<a href="{{ revista.url }}" target="_blank">
+							<h3 class="card-title">{{ revista.name }}</h3>
+						</a>
+					</div>
+					{%- if revista.alerta -%}
+					<div class="card-header text-bg-warning fw-bold"> {{ revista.alerta }}</div>
+					{%- endif -%}
+					<div class="card-body">
+						<p>{{ revista.description }}</p>
+						{%- if revista.convocatorias_url -%}
+						<p><a href="{{ revista.convocatorias_url }}" target="_blank" class="btn btn-outline-danger">Convocatorias</a>
+						</p>
+						{%- endif -%}
+					</div>
+					{%- if revista.contact_email -%}
+					<div class="card-footer">
+						<p>Contacto: <a href="mailto:{{ revista.contact_email }}">{{ revista.contact_email }}</a></p>
+					</div>
+					{%- endif -%}
+				</div>
+			</div>
+		{%- endif -%}
+	{% endfor %}
 </div>
