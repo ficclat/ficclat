@@ -45,4 +45,7 @@ Para consultas, colaboraciones o cualquier otra información, no dudes en contac
 > bundle exec jekyll clean
 > bundle exec jekyll build
 > bundle exec jekyll serve --watch --incremental --port 4001
+> sass --style=expanded --color --watch assets/scss/main.scss assets/css/main.css 
+> sass --style=compressed --watch assets/scss/main.scss assets/css/main-compressed.css  --no-source-map
+
 ``
