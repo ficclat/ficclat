@@ -1,3 +1,4 @@
+
 - name: Espejo Humeante
   tipo: fanzine
   url: https://espejohumeanterevista.wordpress.com/
@@ -90,3 +91,11 @@
   convocatorias_url: https://colectivodelfos.com/convocatoria
   description: Colectivo Delfos es una revista dedicada a la publicación de relatos de ciencia ficción, fantasía y terror, fomentando la creatividad y la difusión de nuevas voces literarias en el mundo hispanohablante.
   contact_email: contacto@colectivodelfos.com
+
+- name: Revista literaria Boca 'e Loba
+  tipo: fanzine
+  alerta: 
+  url: https://www.bocaeloba.com/
+  convocatorias_url: https://www.bocaeloba.com/convocatorias
+  description: La revista literaria “Boca ‘e loba” es un espacio que promueve la creación artística y literaria, además de la reflexión crítica de la realidad social, política y cultural.
+  contact_email: colectivobocaeloba@gmail.com
