@@ -20,13 +20,6 @@
   description: Publicación dedicada a la ciencia ficción y la literatura fantástica, con un enfoque en la innovación narrativa.
   contact_email: anapoyesisrev@gmail.com
 
-- name: Revista Axioma
-  tipo: fanzine
-  url: https://elaxiomablog.wordpress.com/
-  #convocatorias_url: https://revistaaxioma.com/convocatorias
-  description: Revista que ofrece un espacio para la reflexión y el análisis de la literatura de ciencia ficción y fantasía.
-  #contact_email: contacto@revistaaxioma.com
-
 - name: Teoría Omicrón
   tipo: fanzine
   url: https://teoriaomicron.com
@@ -114,3 +107,10 @@
   convocatorias_url: https://www.bocaeloba.com/convocatorias
   description: La revista literaria “Boca ‘e loba” es un espacio que promueve la creación artística y literaria, además de la reflexión crítica de la realidad social, política y cultural.
   contact_email: colectivobocaeloba@gmail.com
+
+- name: SOFÓN revista de ficción especulativa
+  tipo: revista
+  url: https://revistasofon.com/
+  convocatorias_url: https://revistasofon.com/colaboraciones/
+  #description: Revista que combina arte visual y literatura de ciencia ficción y fantasía, destacando la colaboración entre artistas y escritores.
+  #contact_email: elojodeuk@hotmail.com
