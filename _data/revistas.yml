@@ -114,3 +114,11 @@
   convocatorias_url: https://revistasofon.com/colaboraciones/
   #description: Revista que combina arte visual y literatura de ciencia ficción y fantasía, destacando la colaboración entre artistas y escritores.
   #contact_email: elojodeuk@hotmail.com
+
+  - name: Korad
+  tipo: fanzine
+  #alerta: 
+  url: https://revistakorad.wordpress.com/
+  #convocatorias_url: 
+  description: Una revista que persigue aglutinar todas las producciones referidas al fantástico cubano, incluyendo la narrativa de ciencia ficción, fantasía heroica, el comic y la poesía especulativa, pero también conferencias, ensayos, críticas y reseñas.
+  contact_email: revista.korad.cuba@gmail.com
