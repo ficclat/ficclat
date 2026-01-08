@@ -115,7 +115,7 @@
   #description: Revista que combina arte visual y literatura de ciencia ficción y fantasía, destacando la colaboración entre artistas y escritores.
   #contact_email: elojodeuk@hotmail.com
 
-  - name: Korad
+- name: Korad
   tipo: fanzine
   #alerta: 
   url: https://revistakorad.wordpress.com/
