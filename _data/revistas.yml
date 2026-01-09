@@ -119,6 +119,6 @@
   tipo: fanzine
   #alerta: 
   url: https://revistakorad.wordpress.com/
-  #convocatorias_url: 
+  convocatorias_url: https://revistakorad.wordpress.com/colaboraciones/
   description: Una revista que persigue aglutinar todas las producciones referidas al fantástico cubano, incluyendo la narrativa de ciencia ficción, fantasía heroica, el comic y la poesía especulativa, pero también conferencias, ensayos, críticas y reseñas.
   contact_email: revista.korad.cuba@gmail.com
