@@ -84,3 +84,7 @@ minima:
     youtube: ficclat
     instagram: ficclat_
     patreon: FiccLat
+collections:
+  ezine:
+    output: true
+    permalink: /ezine/:path/

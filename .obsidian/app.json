@@ -1,1 +1,9 @@
-{}
+{
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "_data/",
+    "_includes/",
+    "_layouts/",
+    "_site/"
+  ]
+}
