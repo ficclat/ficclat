@@ -25,7 +25,7 @@ Probablemente más reglas se vayan a añadiendo a medida que sea necesario. Me a
 # Índice
 
 ## Rants:
-[[ezine/0001/Rant 0001]]
+[[rant-0001]]
 
 ## Minificciones:
-[[ezine/0001/Suscríbete… antes de morir]]
+[[suscribete_antes_de_morir]]

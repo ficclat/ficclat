@@ -20,6 +20,7 @@ youtube_username: ficclat
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-relative-links
 
 # Author settings (optional)
 author:

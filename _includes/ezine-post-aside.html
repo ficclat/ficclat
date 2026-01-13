@@ -1,0 +1,58 @@
+<aside class="col-12 col-md-4 ezine-sidebar">
+  <nav class="colezine-navigation" aria-label="Navegación del Número">
+
+    {% assign path_parts = page.path | split: '/' %}
+    
+    {% assign current_issue_folder = path_parts[1] %}
+
+    {% if current_issue_folder contains '.md' or current_issue_folder == nil %}
+      
+      <h4>Ediciones Anteriores</h4>
+      <ul>
+        <li><a href="{{ '/ezine' | relative_url }}"><strong>Índice Principal</strong></a></li>
+        {% assign indexes = site.ezine | where: "name", "index.md" | sort: 'path' | reverse %}
+        {% for issue in indexes %}
+           {% unless issue.path == "_ezine/index.md" %}
+             <li><a href="{{ issue.url | relative_url }}">{{ issue.title }}</a></li>
+           {% endunless %}
+        {% endfor %}
+      </ul>
+
+    {% else %}
+
+      <h4>En este número ({{ current_issue_folder }})</h4>
+      
+      <ul class="ezine-current-issue-list">
+        
+        {% assign all_files = site.ezine | sort: 'path' %}
+        
+        {% for file in all_files %}
+          
+          {% assign file_parts = file.path | split: '/' %}
+          {% assign file_issue_folder = file_parts[1] %}
+
+          {% if file_issue_folder == current_issue_folder %}
+            
+            <li class="{% if page.url == file.url %}active{% endif %}">
+              <a href="{{ file.url | relative_url }}">
+                {% if file.name == 'index.md' %}
+                  🏠 <strong>Presentación</strong>
+                {% else %}
+                  {{ file.title | escape }}
+                {% endif %}
+              </a>
+            </li>
+
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <hr>
+      <p style="font-size: 0.9em;">
+        <a href="{{ '/ezine' | relative_url }}">⬅ Volver al índice general</a>
+      </p>
+
+    {% endif %}
+
+  </nav>
+</aside>

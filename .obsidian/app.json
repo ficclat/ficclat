@@ -5,5 +5,7 @@
     "_includes/",
     "_layouts/",
     "_site/"
-  ]
+  ],
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true
 }
