@@ -2,38 +2,32 @@
 layout: default
 ---
 
-<div class="container home py-3">
-  <div class="row">
-    <div class="col-md-12">
-      {{ content }}
+<div class="ezine-library">
+  <h1 class="page-heading">Números Publicados</h1>
+
+  <div class="ezine-grid"
+    style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
+
+    {% comment %} 1. Buscamos todos los archivos de la colección ezine {% endcomment %}
+    {% assign all_files = site.ezine | sort: 'path' | reverse %}
+
+    {% for issue in all_files %}
+
+    {% comment %} 2. FILTRO: Solo queremos los archivos que sean 'index.md' (las portadas) {% endcomment %}
+    {% if issue.name == 'index.md' %}
+
+    <div class="ezine-card" style="border: 1px solid #ddd; padding: 15px; border-radius: 8px;">
+      <h2>
+        <a href="{{ issue.url | relative_url }}">{{ issue.title }}</a>
+      </h2>
+
+      <p>{{ issue.excerpt | strip_html | truncatewords: 20 }}</p>
+
+      <a href="{{ issue.url | relative_url }}" class="btn">Leer número completo &rarr;</a>
     </div>
+
+    {% endif %}
+    {% endfor %}
+
   </div>
-
-
-  {%- if site.ezine.size > 0 -%}
-  <div class="row">
-    <div class="col-md-12">
-      <h2 class="post-list-heading">{{ page.list_title | default: "ezine" }}</h2>
-      <ul class="post-list">
-        {%- for post in site.ezine -%}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-
-      <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
-    </div>
-  </div>
-  {%- endif -%}
-
 </div>

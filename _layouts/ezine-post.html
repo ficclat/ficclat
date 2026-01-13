@@ -22,11 +22,43 @@ layout: default
     <div class="post-content e-content" itemprop="articleBody">
       {{ content }}
     </div>
+</div>
 
-    {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-    {%- endif -%}
+{% comment %} --- INICIO DE LA LISTA AUTOMÁTICA (MÉTODO ROBUSTO) --- {% endcomment %}
+    
+    {% if page.name == 'index.md' %}
 
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  </article>
+      {% comment %} 1. OBTENER LA CARPETA EXACTA {% endcomment %}
+      {% comment %} Tomamos "_ezine/0001/index.md" y le quitamos "index.md". Resultado: "_ezine/0001/" {% endcomment %}
+      {% assign current_dir = page.path | remove: page.name %}
+
+      <div class="ezine-index-container" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee;">
+        <h3>Contenidos de este número:</h3>
+        
+        <ul>
+          {% assign ezine_files = site.ezine | sort: 'path' %}
+          
+          {% for file in ezine_files %}
+            
+            {% comment %} 2. OBTENER LA CARPETA DEL ARCHIVO CANDIDATO {% endcomment %}
+            {% assign file_dir = file.path | remove: file.name %}
+
+            {% comment %} 3. COMPARACIÓN EXACTA {% endcomment %}
+            {% comment %} ¿La carpeta del archivo es IDÉNTICA a la carpeta actual? {% endcomment %}
+            {% if file_dir == current_dir and file.name != 'index.md' %}
+              <li>
+                <a href="{{ file.url | relative_url }}">{{ file.title }}</a>
+              </li>
+            {% endif %}
+            
+          {% endfor %}
+        </ul>
+      </div>
+
+    {% endif %}
+    {% comment %} --- FIN DE LA LISTA AUTOMÁTICA --- {% endcomment %}
+
+
+<a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
 </div>

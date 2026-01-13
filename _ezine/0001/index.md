@@ -21,11 +21,3 @@ Se buscan textos miméticos de terror, fantasía y ciencia ficción, idealmente 
 
 Historias en español de escritores nativos o residentes en países de América que sean de su autoría o no sean obras de ficción inspiradas en otros universos sin la expresa aprobación del autor, que sean humanos o cyborgs, sin ningún tipo de uso de inteligencia artificial, en géneros miméticos de ficción como fantasía o ciencia ficción que no impliquen la violencia infantil como foco más allá de una referencia.
 Probablemente más reglas se vayan a añadiendo a medida que sea necesario. Me aseguraré de dejar la lista actualizada al principio de cada número.
-
-# Índice
-
-## Rants:
-[[rant-0001]]
-
-## Minificciones:
-[[suscribete_antes_de_morir]]

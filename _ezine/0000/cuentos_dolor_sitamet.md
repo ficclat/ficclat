@@ -1,4 +1,4 @@
 ---
-title: 0000 - test
+title: 0000 - cuento dolor sit amet
 layout: ezine-post
 ---

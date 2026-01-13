@@ -1,3 +1,7 @@
+---
+title: subscribete antes de morir
+layout: ezine-post
+---
 Suscríbete… antes de morir 
 Por Walter Rojas
 ![[sillon_rt-2-camara.jpg]]
