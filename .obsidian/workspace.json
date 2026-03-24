@@ -34,9 +34,45 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "522655142d7a42b4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.11.5"
+            }
+          },
+          {
+            "id": "a23f2bdcd08d7a8b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.11.7"
+            }
+          },
+          {
+            "id": "8890104dd4375657",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.12.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -199,7 +235,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ff3f13147221d5ce",
+  "active": "8890104dd4375657",
   "lastOpenFiles": [
     "_site/ezine/0001/suscribete_antes_de_morir/index.html",
     "_site/ezine/0001/suscribete_antes_de_morir",
